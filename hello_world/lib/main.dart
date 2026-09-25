@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MiApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MiApp extends StatelessWidget {
+  const MiApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
+          title: const Text('Bienvenido a Flutter'),
         ),
         body: const Center(
           child: Text(
-            'Hello World',
+            'Hola Mundo',
             style: TextStyle(fontSize: 24),
           ),
         ),
