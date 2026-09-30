@@ -14,7 +14,23 @@ class MiAplicacionWidgets extends StatelessWidget {
       title: 'LDSW 3.4 Widgets',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Actividad 3.4 - Widgets en Español'),
+          title: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              Text(
+                'Actividad 3.4 - Widgets en Español',
+                style: TextStyle(fontSize: 18),
+              ),
+              SizedBox(height: 2),
+              Text(
+                'David Macías Vega',
+                style: TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.normal,
+                ),
+              ),
+            ],
+          ),
           backgroundColor: Colors.teal,
           foregroundColor: Colors.white,
           centerTitle: true,
